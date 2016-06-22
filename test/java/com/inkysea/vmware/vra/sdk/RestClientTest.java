@@ -47,5 +47,4 @@ public class RestClientTest {
         assertNotNull("Token must not be null", test.Put());
     }
 
-
 }
