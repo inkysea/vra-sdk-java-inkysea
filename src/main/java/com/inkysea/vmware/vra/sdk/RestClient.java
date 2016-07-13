@@ -1,5 +1,6 @@
 package com.inkysea.vmware.vra.sdk;
 
+import org.apache.http.HttpEntity;
 import org.apache.http.HttpResponse;
 
 /**
@@ -17,11 +18,19 @@ public class RestClient {
         return null;
     }
 
+    public String Close(){
+        return null;
+    }
+
     public HttpResponse Get(){
         return null;
     }
 
     public HttpResponse Post(){
+        return null;
+    }
+
+    public HttpResponse Post(String URL, HttpEntity multipart ){
         return null;
     }
 

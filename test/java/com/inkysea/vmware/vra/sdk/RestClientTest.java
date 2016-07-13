@@ -24,6 +24,12 @@ public class RestClientTest {
     }
 
     @Test
+    public void test_close(){
+        RestClient test = new RestClient ();
+        assertNotNull("Token must not be null", test.AuthToken());
+    }
+
+    @Test
     public void test_get(){
         RestClient test = new RestClient ();
         test.AuthToken();
@@ -33,6 +39,14 @@ public class RestClientTest {
 
     @Test
     public void test_post(){
+        RestClient test = new RestClient ();
+        test.AuthToken();
+        test.Post();
+        assertNotNull("Token must not be null", test.Post());
+    }
+
+    @Test
+    public void test_post_multipart(){
         RestClient test = new RestClient ();
         test.AuthToken();
         test.Post();
