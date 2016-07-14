@@ -1,5 +1,7 @@
 package com.inkysea.vmware.vra.sdk;
 
+import com.google.gson.JsonObject;
+
 /**
  * Created by kthieler on 6/30/16.
  */
