@@ -104,7 +104,6 @@ public class RestClientTest {
 
     }
 
-
     @Test
     public void test_get_exceptions() throws IOException{
 
