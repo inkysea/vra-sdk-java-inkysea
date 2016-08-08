@@ -100,6 +100,7 @@ public class RestClientTest {
         // Test on known good URL
         String url = this.vraURL+"/catalog-service/api/consumer/resources/";
         assertNotNull("Token must not be null", test.Get(url));
+
     }
 
     @Test
