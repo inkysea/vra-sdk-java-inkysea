@@ -93,6 +93,7 @@ public class RestClientTest {
         assertNotNull("Token must not be null", test.AuthToken());
     }
 
+
     @Test
     public void test_get() throws IOException {
         RestClient test = new RestClient (this.vraURL,this.userName,this.password,this.tenant);
