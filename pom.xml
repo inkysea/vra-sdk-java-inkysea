@@ -58,7 +58,6 @@
             <url>https://api.bintray.com/maven/inkysea/maven/vra-sdk-java-inkysea/;publish=1</url>
         </repository>
 
-
     </distributionManagement>
     <developers>
         <developer>
