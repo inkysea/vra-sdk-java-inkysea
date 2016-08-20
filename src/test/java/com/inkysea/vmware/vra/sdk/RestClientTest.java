@@ -169,7 +169,6 @@ public class RestClientTest {
 
     }
 
-
     @Test
     public void test_put() throws IOException{
         /*
