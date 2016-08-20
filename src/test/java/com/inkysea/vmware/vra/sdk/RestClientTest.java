@@ -181,7 +181,6 @@ public class RestClientTest {
 
         assertNull("To be done", null);
 
-
     }
 
 
