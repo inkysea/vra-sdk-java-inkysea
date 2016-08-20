@@ -43,7 +43,6 @@ public class CatalogItemTest {
 
         LOGGER.setLevel(Level.FINE);
 
-
         try {
 
             Path currentRelativePath = Paths.get("");

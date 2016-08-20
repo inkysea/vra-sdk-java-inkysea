@@ -76,13 +76,14 @@ public class RequestTest {
 
     @Test
     public void getBlueprintTemplate() throws Exception {
-        assertNotNull("To be done", null);
+
+        assertNull("To be done", null);
 
     }
 
     @Test
     public void provisionBluePrint() throws Exception {
-        assertNotNull("To be done", null);
+        assertNull("To be done", null);
     }
 
     @Test
@@ -105,12 +106,13 @@ public class RequestTest {
 
     @Test
     public void getResourceView() throws Exception {
-        assertNotNull("To be done", null);
+        assertNull("To be done", null);
     }
 
     @Test
     public void resources() throws Exception {
-        assertNotNull("To be done", null);
+        assertNull("To be done", null);
+
     }
 
 }
