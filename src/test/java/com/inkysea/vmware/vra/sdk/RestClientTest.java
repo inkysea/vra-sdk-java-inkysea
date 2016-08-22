@@ -142,8 +142,8 @@ public class RestClientTest {
 
         assertNotNull("Placeholder", null);
         */
-
-        assertNull("To be done", null);
+        String pass="Not a null string";
+        assertNull("VMworld 2016!!!", pass);
 
     }
 
